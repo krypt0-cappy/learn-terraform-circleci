@@ -3,8 +3,8 @@ terraform {
     organization = "devops_cappy-terraform"
 
     workspaces {
-      name = ["learn-terraform-circleci"]
-  }
+      name = "learn-terraform-circleci"
+    }
   }
 
 
