@@ -1,5 +1,7 @@
 terraform {
-  cloud {}
+  cloud {
+    organization = "devops_cappy-terraform"
+  }
 
   required_providers {
     aws = {
