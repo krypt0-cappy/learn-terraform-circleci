@@ -1,7 +1,12 @@
 terraform {
   cloud {
     organization = "devops_cappy-terraform"
+
+    workspaces {
+      tags = ["learn-terraform-circleci"]
   }
+  }
+
 
   required_providers {
     aws = {
